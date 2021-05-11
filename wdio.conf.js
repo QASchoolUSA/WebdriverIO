@@ -10,7 +10,7 @@ const sourceSpecDirectory = `tests/features/featureFiles`;
 const jsonTmpDirectory = `tests/reports/json/tmp/`;
 
 
-let featureFilePath = `${sourceSpecDirectory}/*.feature`;
+let featureFilePath = `${sourceSpecDirectory}/automationPracticeTesting.feature`;
 
 // If parallel execution is set to true, then create the Split the feature files
 // And store then in a tmp spec directory (created inside `the source spec directory)
@@ -93,7 +93,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'silent',
+    logLevel: 'error',
     //
     // Set specific log levels per logger
     // loggers:
@@ -117,7 +117,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://automationpractice.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 5000,

@@ -23,9 +23,11 @@
     "chromedriver": "80.0.2",
     "cucumber-html-reporter": "5.2.0",
     "eslint": "^6.8.0",
-    "selenium-standalone": "6.17.0",
+    "selenium-standalone": "^6.17.0",
     "wdio-cucumber-parallel-execution": "^3.6.7",
     "wdio-cucumberjs-json-reporter": "1.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^7.5.7"
+  }
 }
